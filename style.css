@@ -1,0 +1,152 @@
+
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header, nav {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+
+
+
+
+/* Containers */
+.content-wrapper {
+  background-color: #eae2b7;
+  margin: auto;
+  max-width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+article div img {
+  width: 300px;
+  max-width: 300px;
+}
+
+article div > div {
+  flex: 1;
+  display: block;
+}
+
+article div h3 {
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+article div p,
+article div ul {
+  margin: 0 0 15px 0;
+  text-align: left;
+}
+
+article section.background-section h3{
+  text-align: center;
+  max-width: 100%;
+}
+article section.background-section p {
+  text-align: left;
+}
+
+/* Portfolio */
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.portfolio-item {
+  text-align: center;
+  max-width: 400px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.portfolio-text {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* Contact */
+
+.contact-links ul {
+  margin: 10px 0;
+  text-align: left;
+  display: flex;
+}
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+  margin: 40px 0;
+}
